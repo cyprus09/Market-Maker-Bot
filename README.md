@@ -1,4 +1,4 @@
-# Cross-Exchange Trading Bot
+# Cross-Exchange Trading Bot (In Progress)
 
 A cross-exchange trading bot is a sophisticated computer program designed to automate trading strategies across multiple cryptocurrency exchanges. This type of bot operates on the principle of cross-exchange functionality, enabling it to leverage price discrepancies, arbitrage opportunities, and market conditions that vary across different trading platforms.
 
