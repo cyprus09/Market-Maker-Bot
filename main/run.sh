@@ -1,0 +1,1 @@
+cd build; ./market-maker-bot
