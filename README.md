@@ -1,2 +1,58 @@
 # Market-Maker-Bot
 Cross-Exchange Trading Bot in C++
+
+File Structure:
+
+The file structure you've provided seems to be for a market maker bot written in C++ that interacts with various cryptocurrency exchanges. Let's break down the structure and highlight the key components:
+
+.vs: This directory typically contains settings and files related to Visual Studio, an integrated development environment (IDE).
+
+.suo: This file stores user-specific settings for the Visual Studio solution.
+
+.vscode: This directory contains configuration files for Visual Studio Code, another popular code editor.
+
+launch.json: Configuration for launching and debugging the application.
+settings.json: User or project-specific settings for Visual Studio Code.
+tasks.json: Configuration for tasks that can be run in Visual Studio Code.
+adapters: This directory seems to contain implementations for different cryptocurrency exchange adapters.
+
+Bitfinex: Implementation for Bitfinex exchange.
+Binance: Implementation for Binance exchange.
+Coinbase: Implementation for Coinbase exchange.
+Ftx: Implementation for FTX exchange.
+Kraken: Implementation for Kraken exchange.
+utils: Common utility functions or classes used across the project.
+
+utils.cpp: Source code file for utility functions.
+utils.hpp: Header file declaring utility functions.
+external: This directory might contain external dependencies or submodules.
+
+url: External library or submodule for handling URLs.
+features: Specific features or indicators for the market maker bot.
+
+TapeSpeedIndicator.cpp: Implementation of the Tape Speed Indicator feature.
+TapeSpeedIndicator.hpp: Header file for the Tape Speed Indicator.
+main: Core files for the market maker bot.
+
+Ringbuffer.hpp: Implementation of a ring buffer data structure.
+datafeeds.hpp: Data feed-related functionality.
+main.cpp: The main entry point for the application.
+notes.md: Markdown file containing project notes.
+types.hpp: Header file declaring types used in the project.
+.gitignore: Configuration file specifying files and directories to be ignored by version control (Git).
+
+.gitmodules: Configuration file for Git submodules if any are used.
+
+CMakeLists.txt: Configuration file for CMake, a cross-platform build system. It specifies how the project should be built.
+
+Photo.png: An image file, potentially a logo or a visual asset for the project.
+
+build.sh: Shell script for building the project.
+
+configure.sh: Shell script for configuring the project.
+
+readme.md: Markdown file containing information about the project.
+
+run.sh: Shell script for running the market maker bot.
+
+This file structure indicates a well-organized C++ project, leveraging Visual Studio and CMake for development, with specific adapters for multiple cryptocurrency exchanges and additional features such as the Tape Speed Indicator.
