@@ -1,6 +1,3 @@
-# Market-Maker-Bot
-Cross-Exchange Trading Bot in C++
-
 File Structure:
 
 .vs: This directory typically contains settings and files related to Visual Studio, an integrated development environment (IDE).
